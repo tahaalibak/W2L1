@@ -38,15 +38,16 @@
 					android:id="@+id/new_button"
 					android:text="@string/new_game_label"
 				/>
-				<Button
-					android:id="@+id/new_button"
-					android:text="@string/contact_label"
-				/>
+
 			</TableRow>
 			<TableRow>
 				<Button
 					android:id="@+id/about_button"
 					android:text="@string/about_label"
+				/>
+				<Button
+					android:id="@+id/contact_button"
+					android:text="@string/contact_label"
 				/>
 				<Button
 					android:id="@+id/exit_button"
