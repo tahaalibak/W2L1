@@ -26,6 +26,8 @@ public class Sudoku extends Activity implements OnClickListener{
         newButton.setOnClickListener(this);
         View aboutButton = findViewById(R.id.about_button);
         aboutButton.setOnClickListener(this);
+        View contactButton = findViewById(R.id.contact_button);
+        contactButton.setOnClickListener(this);
         View exitButton = findViewById(R.id.exit_button);
         exitButton.setOnClickListener(this);
     }
@@ -35,6 +37,10 @@ public class Sudoku extends Activity implements OnClickListener{
     	case R.id.about_button:
     		Intent i = new Intent(this, About.class);
     		startActivity(i);
+    		break;
+    	case R.id.contact_button:
+    		Intent j = new Intent(this, Contact.class);
+    		startActivity(j);
     		break;
     	case R.id.new_button:
     		openNewGameDialog();

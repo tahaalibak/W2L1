@@ -4,6 +4,7 @@
     <string name="main_title">Sudoku by Taha</string>
     <string name="continue_label">Continue</string>
     <string name="new_game_label">New Game</string>
+    <string name="contact_label">Contact Us</string>
     <string name="about_label">About</string>
     <string name="exit_label">Exit</string>
     <string name="about_text">\
@@ -15,6 +16,8 @@ row, each column, and each of the 3x3 boxes
 1 to 9 exactly once.    
 </string>
     <string name="about_title">About Android Sudoku by Taha</string>
+    <string name="contact_title">Email us at:</string>
+    <string name="contact_text">tahaalibak@gmail.com</string>
     <string name="settings_label">Settings...</string>
     <string name="settings_title">Sudoku settings</string>
     <string name="music_title">Music</string>
